@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Export path to AWS cli
+export PATH=${HOME}/.local/bin:${PATH}
+
 if [ -z ${PLUGIN_CLUSTER} ]; then
   echo '"cluster" is missing. Add target "cluster" to your pipline settings'
   exit 1

@@ -11,6 +11,6 @@ RUN pip3 install ecs-deploy
 
 COPY cmd.sh /bin/
 
-ENTRYPOINT [ "/bin/bash" ]
+ENTRYPOINT [ "/bin/bash", "-l", "-c"]
 
 CMD [ "/bin/cmd.sh" ]
