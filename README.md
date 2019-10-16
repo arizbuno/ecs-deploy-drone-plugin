@@ -19,7 +19,7 @@ This stage will update `our_container` inside the task in `our_service` on `our_
     image: our_image
 ```
 
-### Using sts:AssumeRole
+### Using Access Key ID and Secret Key
 
 This stage will update `our_container` inside the task in `our_service` on `our_cluster` to use `our_image` using the credential given. It is adviced to use secret.
 
